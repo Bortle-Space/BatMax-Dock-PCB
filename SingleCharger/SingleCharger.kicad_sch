@@ -1634,6 +1634,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 81.28) (xy 171.45 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2945da7-3fee-4888-8a96-92cf84e4d906")
+	)
+	(wire
+		(pts
 			(xy 186.69 73.66) (xy 171.45 73.66)
 		)
 		(stroke
@@ -1976,6 +1986,73 @@
 			(project "SingleCharger"
 				(path "/e710e346-5907-4662-9fec-fc15df74dc9e"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1114a445-f40d-437d-b9c2-618e72346e3c")
+		(property "Reference" "#PWR057"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 190.5 81.2799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db2e4316-af25-40bc-9521-9f025249223d")
+		)
+		(instances
+			(project "SingleCharger"
+				(path "/e710e346-5907-4662-9fec-fc15df74dc9e"
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)

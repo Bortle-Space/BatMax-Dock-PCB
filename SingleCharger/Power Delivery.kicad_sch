@@ -214,160 +214,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "COMPONENTS:NCP1117ST33T3G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NCP1117ST33T3G"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "COMPONENTS:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Linear-Voltage-Regulators_ON_NCP1117ST33T3G_NCP1117ST33T3G_C26537.html"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C26537"
-				(at 0 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NCP1117ST33T3G_0_1"
-				(rectangle
-					(start -7.62 6.35)
-					(end 7.62 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -6.35 5.08)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 3.81 0)
-					(length 2.54)
-					(name "ADJ/GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 1.27 0)
-					(length 2.54)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -1.27 0)
-					(length 2.54)
-					(name "INPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -3.81 0)
-					(length 2.54)
-					(name "TAB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1784,12 +1630,6 @@
 		(uuid "4374adda-9acd-44ec-bec9-22a4bacd1700")
 	)
 	(junction
-		(at 219.71 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "450d73f2-679e-4b57-a31d-a0da6960ba1d")
-	)
-	(junction
 		(at 123.19 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1874,12 +1714,6 @@
 		(uuid "d66aa767-1ff6-40ad-a7a0-5febed83b803")
 	)
 	(junction
-		(at 219.71 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d957bad4-8f43-452d-abe4-555b05f85e07")
-	)
-	(junction
 		(at 58.42 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1924,26 +1758,6 @@
 			(type default)
 		)
 		(uuid "0195a2b0-97df-4200-8dc9-d99d43596d7c")
-	)
-	(wire
-		(pts
-			(xy 233.68 33.02) (xy 219.71 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01bdb560-4c72-41af-a50e-57db44302001")
-	)
-	(wire
-		(pts
-			(xy 219.71 35.56) (xy 233.68 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0446c07e-d9c2-4fd1-afaf-6f73676cd43d")
 	)
 	(wire
 		(pts
@@ -2054,16 +1868,6 @@
 			(type default)
 		)
 		(uuid "251934f9-621e-4a24-9569-09e38e229be1")
-	)
-	(wire
-		(pts
-			(xy 213.36 33.02) (xy 219.71 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ea723a-02a3-48ae-94e0-b711b23a38ca")
 	)
 	(wire
 		(pts
@@ -2387,16 +2191,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 33.02) (xy 219.71 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c7a41cc-8f70-4401-8195-f6526f281d0e")
-	)
-	(wire
-		(pts
 			(xy 86.36 86.36) (xy 67.31 86.36)
 		)
 		(stroke
@@ -2634,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "f20b91fe-b73d-4598-a968-f14fb6a13dac")
-	)
-	(wire
-		(pts
-			(xy 213.36 35.56) (xy 219.71 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4c727c5-0c33-4d08-8435-30325db6776e")
 	)
 	(wire
 		(pts
@@ -3038,7 +2822,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 213.36 33.02 90)
+		(at 198.12 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3047,7 +2831,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ee90a7a-0242-4a24-a3e0-cc6437b229a4")
 		(property "Reference" "#PWR042"
-			(at 217.17 33.02 0)
+			(at 201.93 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +2840,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 209.55 33.0199 90)
+			(at 194.31 22.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +2849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 33.02 0)
+			(at 198.12 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,7 +2858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 33.02 0)
+			(at 198.12 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,7 +2867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 213.36 33.02 0)
+			(at 198.12 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,91 +3414,6 @@
 		)
 	)
 	(symbol
-		(lib_id "COMPONENTS:NCP1117ST33T3G")
-		(at 243.84 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37736df8-ca18-4c92-a884-023c72df28fb")
-		(property "Reference" "U5"
-			(at 252.73 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NCP1117ST33T3G"
-			(at 252.73 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "COMPONENTS:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
-			(at 243.84 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Linear-Voltage-Regulators_ON_NCP1117ST33T3G_NCP1117ST33T3G_C26537.html"
-			(at 243.84 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C26537"
-			(at 243.84 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1423e470-fbef-436e-8967-67223ca34ccb")
-		)
-		(pin "3"
-			(uuid "9e140e49-97d8-4d2a-b5fa-e0a1f3ccf436")
-		)
-		(pin "2"
-			(uuid "ed58abb7-55e3-4587-bad0-e5ea17eee98e")
-		)
-		(pin "1"
-			(uuid "c88dcb45-9ad0-4772-bbc0-355a61894765")
-		)
-		(instances
-			(project ""
-				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 110.49 48.26 0)
 		(unit 1)
@@ -3788,152 +3487,6 @@
 			(project "SingleCharger"
 				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 213.36 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b85f92e-9d42-4c5c-9120-0d6ce487f6a2")
-		(property "Reference" "#PWR014"
-			(at 217.17 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 209.55 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 213.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d438589-a7dd-4eea-bfd0-60e0723c1fef")
-		)
-		(instances
-			(project "SingleCharger"
-				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 219.71 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "505189d8-33be-4957-a25f-de2eb700cd52")
-		(property "Reference" "C15"
-			(at 223.52 38.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 223.52 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 220.6752 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C94034"
-			(at 219.71 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "740236f8-4b95-4585-afaf-28b14ec20054")
-		)
-		(pin "2"
-			(uuid "7285b76b-a927-46b5-a97d-0763257382f5")
-		)
-		(instances
-			(project "SingleCharger"
-				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4313,85 +3866,6 @@
 			(project "SingleCharger"
 				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 219.71 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60bf4a48-887f-48de-ba58-97efd07e3cb6")
-		(property "Reference" "C16"
-			(at 223.52 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 223.52 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 220.6752 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C94034"
-			(at 219.71 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c111e2e-66c8-45cb-8438-8d11e4d63349")
-		)
-		(pin "2"
-			(uuid "a4691cb3-f894-4bff-aabe-6eb697d2bd69")
-		)
-		(instances
-			(project "SingleCharger"
-				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5510,72 +4984,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5465e42-ae28-48ec-b35f-d0f4f9e712c0")
-		(property "Reference" "#PWR039"
-			(at 219.71 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b872bc3-ea07-46c8-91b8-1d1c543eda18")
-		)
-		(instances
-			(project "SingleCharger"
-				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 71.12 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6073,73 +5481,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 233.68 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d034e670-d7d9-4c0f-b617-3eed38b69609")
-		(property "Reference" "#PWR041"
-			(at 227.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 229.87 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1301aa4-547e-4ed5-a87d-ac19bef838f8")
-		)
-		(instances
-			(project "SingleCharger"
-				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 180.34 76.2 90)
 		(unit 1)
@@ -6604,72 +5945,6 @@
 			(project "SingleCharger"
 				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 219.71 24.13 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2cc4742-a430-4d3e-9ad0-9ce9d1dc425a")
-		(property "Reference" "#PWR040"
-			(at 219.71 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86a62f56-79e9-4cb6-9326-20543a190b39")
-		)
-		(instances
-			(project "SingleCharger"
-				(path "/e710e346-5907-4662-9fec-fc15df74dc9e/58f98ed6-8320-49b2-a1af-0845593e09e2"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
