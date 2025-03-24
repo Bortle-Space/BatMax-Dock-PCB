@@ -1,4 +1,4 @@
-24839769142490757
+24845059910825071
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2597,6 +2597,13 @@ COMM-SMD_18P-L16.0-W16.0-P1.27-BL_RA-08H
 18
 18
 COMPONENTS
+COMM-SMD_L51.0-W21.0-P2.54_PICOW
+
+
+0
+46
+46
+COMPONENTS
 COMM-SMD_L51.0-W21.0-P2.54_SC0916
 
 
@@ -2694,6 +2701,20 @@ GPSM-SMD_ATGM336H-TR
 0
 18
 18
+COMPONENTS
+HDR-TH_20P-P2.54-V-F
+
+
+0
+20
+20
+COMPONENTS
+HDR-TH_20P-P2.54-V-M-1
+
+
+0
+20
+20
 COMPONENTS
 IND-SMD_L11.5-W10.0_FXL1040
 
