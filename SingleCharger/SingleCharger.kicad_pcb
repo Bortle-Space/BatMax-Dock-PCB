@@ -1607,7 +1607,7 @@
 			(uuid "6b0044c4-c44c-45eb-9f76-8968caf75369")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/CONN-TH_36P-P1.00-V_3183-XXXXXPXT.step"
+		(model "${COMPONENTS_3D_MODELS}/CONN-TH_36P-P1.00-V_3183-XXXXXPXT.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2317,7 +2317,7 @@
 			(uuid "cadb208c-3db7-42eb-8a23-d3847f558837")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
+		(model "${COMPONENTS_3D_MODELS}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
 			(offset
 				(xyz 0 0 -0)
 			)
@@ -2961,7 +2961,7 @@
 			(uuid "2d9e46cd-e0d5-4245-afbd-3820ca8cf4f7")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
+		(model "${COMPONENTS_3D_MODELS}/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
 			(offset
 				(xyz 0 0 -0)
 			)
@@ -3423,7 +3423,7 @@
 			(uuid "39bd503d-28ef-4c10-9d8d-57d646d363cd")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/DC-IN-TH_DC-005-20A.step"
+		(model "${COMPONENTS_3D_MODELS}/DC-IN-TH_DC-005-20A.step"
 			(offset
 				(xyz -3.45 2.12 0)
 			)
@@ -4035,7 +4035,7 @@
 			(uuid "1c085b4f-eea2-455a-a500-99cbd2f3a1f8")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/IND-SMD_L11.5-W10.0-H3.8_FXL1040.step"
+		(model "${COMPONENTS_3D_MODELS}/IND-SMD_L11.5-W10.0-H3.8_FXL1040.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -5624,7 +5624,7 @@
 			(uuid "da5a30be-c6e3-4f08-9a2a-070d4dc149d4")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/DFN-5_L4.9-W5.9-H1.0-P1.27-LS6.2-BL.step"
+		(model "${COMPONENTS_3D_MODELS}/DFN-5_L4.9-W5.9-H1.0-P1.27-LS6.2-BL.step"
 			(offset
 				(xyz 0 1 1)
 			)
@@ -6930,7 +6930,7 @@
 			(uuid "04c8710f-e3bb-4b22-a130-0af81578e1b3")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
+		(model "${COMPONENTS_3D_MODELS}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -7392,7 +7392,7 @@
 			(uuid "c7f034c8-13d0-45aa-8b27-44909b6bc781")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENETS_3D_MODELS}/SMC_L7.1-W6.2-LS8.1-RD.step"
+		(model "${COMPONENTS_3D_MODELS}/SMC_L7.1-W6.2-LS8.1-RD.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -8124,7 +8124,7 @@
 			(uuid "a6d62209-ca40-47d5-bd9b-946d22685479")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
+		(model "${COMPONENTS_3D_MODELS}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
 			(offset
 				(xyz 0 0 -0.1)
 			)
@@ -11174,7 +11174,7 @@
 			(uuid "8c1da137-606c-4e2c-860d-dacb15c552ad")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
+		(model "${COMPONENTS_3D_MODELS}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -11580,7 +11580,7 @@
 			(uuid "ea230d09-df05-4efe-8bc8-a488d968f590")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/IND-SMD_L11.5-W10.0-H3.8_FXL1040.step"
+		(model "${COMPONENTS_3D_MODELS}/IND-SMD_L11.5-W10.0-H3.8_FXL1040.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -12937,7 +12937,7 @@
 			(uuid "e14720e8-bbbf-45c9-be05-065a87faac37")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50.step"
+		(model "${COMPONENTS_3D_MODELS}/MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50.step"
 			(offset
 				(xyz 0 0 -0)
 			)
@@ -14059,8 +14059,7 @@
 			(uuid "f38e38d6-f6a6-47ab-988e-4ec09f3d5806")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/SMC_L7.1-W6.2-LS8.1-RD.step"
-			(hide yes)
+		(model "${COMPONENTS_3D_MODELS}/SMC_L7.1-W6.2-LS8.1-RD.step"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -14792,7 +14791,7 @@
 			(uuid "8f42b936-fbb2-49fc-96da-a2fab43ab1bf")
 		)
 		(embedded_fonts no)
-		(model "${COMPONENTS_3D_FILES}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
+		(model "${COMPONENTS_3D_MODELS}/SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27.step"
 			(offset
 				(xyz 0 0 -0.1)
 			)
@@ -38137,36 +38136,6 @@
 				(xy 171.477111 102.134839) (xy 171.460499 102.07284) (xy 171.460499 101.151998) (xy 171.460498 101.15198)
 				(xy 171.450642 101.055496) (xy 171.45 101.042895) (xy 171.45 97.028) (xy 171.45 92.71) (xy 175.006 92.71)
 			)
-		)
-	)
-	(group ""
-		(uuid "38d4f2a7-15dc-4de7-9111-eceb12cdedfd")
-		(members "04db3b84-c1da-44bc-a972-caa40122be48" "0c168d11-0992-4fa5-8488-225b4fecc31e"
-			"0f1c7712-d4ae-4afb-b0ef-60a1a00457be" "0f276f81-ae01-4b6d-aee7-53e01b334cf0"
-			"12df3cb2-ba18-4d1d-a808-6ecdf420fc36" "1417581f-5397-4de1-88ac-3c0494a55af5"
-			"1628e6bb-4b1b-4795-9a28-5b4a44fd059c" "1ca7eb80-c236-4956-aa0b-ba74b305be82"
-			"24baddc9-07ec-4cbe-a1f1-64b1f5762e75" "285bcbd7-f2e7-47c0-8f22-b54e57f13e5e"
-			"2b96fab2-d01e-4268-afa1-e6d7bca7f49e" "307fb07f-fffc-4577-8d3b-aa8e05de09cb"
-			"34e980ed-8f74-4250-94ef-f5b8b47bb005" "526e61b1-ab49-4ae5-8bcd-1cc8bb0ed3e5"
-			"54afcf60-cfa1-4a81-b074-88c51af33248" "55f186ed-3236-41fd-b354-67f8913c057d"
-			"5ab15a82-55f0-4834-ab75-34ea43e72413" "5ad30489-08ce-4ffa-8367-4e48239f3571"
-			"66cde1ae-34e6-4a72-b25f-e0bf9a01bc22" "687e1b9a-a842-4e1d-8ef1-975619ca3185"
-			"6a4dc012-475a-4c90-8d7e-a5589e068ec8" "6e73ec06-e778-4519-8fe3-8897e7706a80"
-			"75f2c74d-219e-4a69-ad9b-6d546826e7f6" "7ea2e4f7-6f31-4789-91b9-24e850d6910a"
-			"812c3915-3efc-45e9-9341-83150bed3210" "816f37c2-8a99-4ae4-8bfd-b49f853998d5"
-			"8fa6bc4b-e1d2-41dd-a0cb-3c3442ad2b68" "93e164b3-05a7-4e82-a454-d39cccad399b"
-			"943d7d8b-a513-4a9f-adb7-b5be42418a1a" "9b6475f7-ac87-4f46-9b95-0aeb8adbe28f"
-			"9cb6c994-cb4b-42b2-9272-e01055071ce3" "abdc368a-9107-4825-bd77-e142eca55f7f"
-			"c675e4ea-d521-4890-9ded-d366cc81c6ac" "c7660afa-c924-40bb-8f81-13254ad9d582"
-			"c7e768d0-9a20-4446-ba5f-a65dbad79859" "d199a864-590d-4a30-ab0e-2f4cac77b35b"
-			"d1ec5f01-8fa9-4fc7-8369-da02a49d14a9" "d270ce8f-fa23-47b0-8c47-1d2d664bec5b"
-			"d699d3c2-99c4-4692-acdf-968da696f634" "d9345683-340d-4668-ac87-13350ba1eb1f"
-			"d99b93b4-2d37-4b5a-bb38-e065bf787012" "d9d27bf5-c3fd-4191-8c1a-f10ebe813ede"
-			"e05298a6-9555-458c-846f-4c921df9a339" "e23542c7-75a6-4a8d-ad4e-4aec0b4cd752"
-			"e837ddb2-0744-4763-a717-68a14ccae1b8" "edfcfa8a-2c4b-42c0-ae4c-aaf1f36e2913"
-			"ef7cd3ac-d19d-4c0e-b5ab-83996eff2d77" "f0bb6e08-c7e0-4b3a-8e20-b0513fddcae0"
-			"f4f6ce62-6316-4304-8336-836948f964ec" "f5094b72-51d0-4697-a978-53b293c34a94"
-			"faf0446d-cb9f-46fd-b9ad-283b2c72547f" "fc994732-2108-41fa-9752-45d11aae9c0a"
 		)
 	)
 	(group ""
