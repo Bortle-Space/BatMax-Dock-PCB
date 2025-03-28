@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "9c03a20b-47a8-4a74-8c65-959fa3965324")
 	(paper "A4")
+	(title_block
+		(title "BatMax - Female")
+		(date "2025-03-28")
+		(rev "1.0")
+		(company "Neatstranger")
+	)
 	(lib_symbols
 		(symbol "Connector:Bus_PCI_Express_x1"
 			(exclude_from_sim no)
@@ -738,6 +744,102 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 15.24 137.16)
+		(end 86.36 179.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3614590d-76a3-4101-a99c-775103d4bcf2)
+	)
+	(rectangle
+		(start 39.37 163.83)
+		(end 59.69 172.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 648114d1-194d-4adb-9dcc-f9c2f23bcfa1)
+	)
+	(rectangle
+		(start 39.37 148.336)
+		(end 59.69 157.226)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid caed75bc-d2e7-4401-b451-eebad67292de)
+	)
+	(text "3v3 -----"
+		(exclude_from_sim no)
+		(at 33.274 152.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36a2a160-7cf1-47fb-8a40-8bd8533405d2")
+	)
+	(text "----- TEMP"
+		(exclude_from_sim no)
+		(at 75.184 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3dade758-6d77-4323-8bf9-3fe2c52ffee7")
+	)
+	(text "50k Resistor"
+		(exclude_from_sim no)
+		(at 48.768 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6df3bf71-d3e3-4194-8115-efab72383502")
+	)
+	(text "3v3GND -----"
+		(exclude_from_sim no)
+		(at 31.496 168.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a113b07a-b8df-445f-8b5d-ec108aae4747")
+	)
+	(text "50k(3800)\nNTC Thermistor"
+		(exclude_from_sim no)
+		(at 49.53 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb431bb4-5d7a-492c-866b-ac804faecc9b")
+	)
+	(text "Thermistor Connection on Battery"
+		(exclude_from_sim no)
+		(at 32.766 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0ee9453-c708-4865-a648-cb0a194c0368")
+	)
 	(junction
 		(at 170.18 97.79)
 		(diameter 0)
@@ -1142,6 +1244,16 @@
 		)
 		(uuid "c1aff9a4-6f86-4a33-967f-16c4649ffff7")
 	)
+	(polyline
+		(pts
+			(xy 59.69 167.64) (xy 68.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c21b98-2299-4320-a021-c0d25416cd2c")
+	)
 	(wire
 		(pts
 			(xy 139.7 85.09) (xy 139.7 87.63)
@@ -1151,6 +1263,16 @@
 			(type default)
 		)
 		(uuid "d16b0675-f2af-4fd8-9d1e-453119a591c5")
+	)
+	(polyline
+		(pts
+			(xy 68.58 152.4) (xy 68.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b59266-f057-439c-a95f-163f24a56b61")
 	)
 	(wire
 		(pts
@@ -1222,65 +1344,15 @@
 		)
 		(uuid "f1e74941-ca32-449a-8f9b-2526e37fed47")
 	)
-	(label "3v3GND"
-		(at 139.7 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(polyline
+		(pts
+			(xy 59.69 152.4) (xy 68.58 152.4)
 		)
-		(uuid "2aa01809-67e9-4085-8e8f-1f06775f9708")
-	)
-	(label "SCL"
-		(at 139.7 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "306070db-0bd4-4f19-a05d-d45b986649e9")
-	)
-	(label "3v3"
-		(at 170.18 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33e50392-66bb-4705-941a-bebeac2f353c")
-	)
-	(label "SDA"
-		(at 170.18 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3adbdae1-d20f-49e2-b4ed-8105f74a61ab")
-	)
-	(label "EEPROM_WC"
-		(at 170.18 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7955108b-bd43-4522-968c-c40f96c05f56")
-	)
-	(label "P+"
-		(at 175.26 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa3f2cf6-11de-4d47-a04d-47acb17d4db3")
+		(uuid "fdbf60ce-bed4-4a6c-9588-8124cd95483e")
 	)
 	(label "P-"
 		(at 134.62 91.44 180)
@@ -1290,7 +1362,57 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d90ee477-6f64-4223-a333-787fbe4c8f6c")
+		(uuid "136c2cb6-e77b-4b77-9a5a-fb8ae7505cf8")
+	)
+	(label "3v3"
+		(at 170.18 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "254e3a98-b148-45ed-b412-102eb4d28b52")
+	)
+	(label "P+"
+		(at 175.26 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6665b93a-1830-4c23-b9cc-f7a320080d8a")
+	)
+	(label "SCL"
+		(at 139.7 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80f05d90-726c-4ac4-9c93-b9db50ad819e")
+	)
+	(label "EEPROM_WC"
+		(at 170.18 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9815aad2-54c1-43d6-b036-7d926bff407d")
+	)
+	(label "SDA"
+		(at 170.18 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4e78ca5-dbf4-4794-868e-1ffc07236187")
 	)
 	(label "TEMP"
 		(at 139.7 74.93 180)
@@ -1300,73 +1422,17 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fb6717b2-c501-45ca-adf7-9cfe213a2a50")
+		(uuid "ecac755a-fc24-43ff-a97e-98a08d270072")
 	)
-	(hierarchical_label "EEPROM_WC"
-		(shape input)
-		(at 182.88 74.93 0)
+	(label "3v3GND"
+		(at 139.7 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "05293deb-e577-4115-ae6c-bc0323e01dc2")
-	)
-	(hierarchical_label "3V3GND"
-		(shape input)
-		(at 124.46 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2239ccfd-89a3-485e-9884-cb417ec50bc4")
-	)
-	(hierarchical_label "B+"
-		(shape input)
-		(at 180.34 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b789273-0b2b-4255-9b57-b25fe373f14d")
-	)
-	(hierarchical_label "3v3"
-		(shape input)
-		(at 182.88 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e4b0523-0a7a-4e0f-8bb3-b38ca9f8e9ac")
-	)
-	(hierarchical_label "B-"
-		(shape input)
-		(at 129.54 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5396095b-3556-40f1-a3fa-a239b24ae01f")
-	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 124.46 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "898437e2-cdb0-4deb-baac-643b4de8e03e")
+		(uuid "ef962120-2012-422e-8dd8-c09051b4a5dd")
 	)
 	(hierarchical_label "SDA"
 		(shape input)
@@ -1377,7 +1443,40 @@
 			)
 			(justify left)
 		)
-		(uuid "ccce4bb0-61a1-4a79-825a-28d15878874b")
+		(uuid "117b739f-a53b-4157-a1af-7e0bb122709a")
+	)
+	(hierarchical_label "B-"
+		(shape input)
+		(at 129.54 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "771036cf-d63d-41e0-a3f7-db620269d27f")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 124.46 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "780b69da-8c0d-4214-9b39-e17af2c1c9ab")
+	)
+	(hierarchical_label "3v3"
+		(shape input)
+		(at 182.88 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83cf2421-57c7-4c56-a744-5d28c9ffa700")
 	)
 	(hierarchical_label "TEMP"
 		(shape output)
@@ -1388,7 +1487,40 @@
 			)
 			(justify right)
 		)
-		(uuid "e60e6470-5f56-46c1-9e24-093aede9bcf5")
+		(uuid "c04fbe99-e4d2-4810-acac-090b0fcb49b9")
+	)
+	(hierarchical_label "EEPROM_WC"
+		(shape input)
+		(at 182.88 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db4cd22b-abc6-4f19-898c-c66e7eede3e4")
+	)
+	(hierarchical_label "B+"
+		(shape input)
+		(at 180.34 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2a0a6f2-7fa3-44e5-a93b-a1751eae820e")
+	)
+	(hierarchical_label "3V3GND"
+		(shape input)
+		(at 124.46 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec22fabe-b9c8-47f2-b005-a1e7d74b54c0")
 	)
 	(symbol
 		(lib_id "Connector:Bus_PCI_Express_x1")
@@ -1399,7 +1531,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "328a655d-4aa9-4a7e-ae12-45d92e7bcc25")
+		(uuid "4738dca3-549e-4428-bce0-25ff1ec26bff")
 		(property "Reference" "J1"
 			(at 162.814 121.158 0)
 			(effects
